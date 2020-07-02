@@ -141,6 +141,7 @@ canvas {
 .icon-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -156,6 +157,10 @@ canvas {
   background: #ff8300;
   color: black;
   font-weight: bold;
+}
+
+.skills {
+  font-size: 100px;
 }
 
 
@@ -253,5 +258,4 @@ canvas {
   .about-me-text {
     margin-top: 15px;
   }
-
 }
